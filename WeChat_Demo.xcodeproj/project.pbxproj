@@ -13,6 +13,15 @@
 		662B880F25B514C800829ECA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 662B880D25B514C800829ECA /* Main.storyboard */; };
 		662B881125B514C900829ECA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 662B881025B514C900829ECA /* Assets.xcassets */; };
 		662B881425B514C900829ECA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 662B881225B514C900829ECA /* LaunchScreen.storyboard */; };
+		662B882125B5211400829ECA /* WeChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662B882025B5211400829ECA /* WeChatViewController.swift */; };
+		662B882525B5215700829ECA /* MailListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662B882425B5215700829ECA /* MailListViewController.swift */; };
+		662B882825B5216900829ECA /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662B882725B5216900829ECA /* ExploreViewController.swift */; };
+		662B882C25B5219A00829ECA /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662B882B25B5219A00829ECA /* UserViewController.swift */; };
+		662B883725B6D5A500829ECA /* WeChatCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662B883625B6D5A500829ECA /* WeChatCellModel.swift */; };
+		662B883A25B6DEBC00829ECA /* WeChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662B883925B6DEBC00829ECA /* WeChatCell.swift */; };
+		662B883D25B84F5E00829ECA /* GenenralCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662B883C25B84F5E00829ECA /* GenenralCellModel.swift */; };
+		662B884025B8515700829ECA /* GeneralCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662B883F25B8515700829ECA /* GeneralCell.swift */; };
+		662B884525BABD0700829ECA /* UserInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662B884425BABD0700829ECA /* UserInfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,15 @@
 		662B881025B514C900829ECA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		662B881325B514C900829ECA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		662B881525B514C900829ECA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		662B882025B5211400829ECA /* WeChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeChatViewController.swift; sourceTree = "<group>"; };
+		662B882425B5215700829ECA /* MailListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailListViewController.swift; sourceTree = "<group>"; };
+		662B882725B5216900829ECA /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
+		662B882B25B5219A00829ECA /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		662B883625B6D5A500829ECA /* WeChatCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeChatCellModel.swift; sourceTree = "<group>"; };
+		662B883925B6DEBC00829ECA /* WeChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeChatCell.swift; sourceTree = "<group>"; };
+		662B883C25B84F5E00829ECA /* GenenralCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenenralCellModel.swift; sourceTree = "<group>"; };
+		662B883F25B8515700829ECA /* GeneralCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralCell.swift; sourceTree = "<group>"; };
+		662B884425BABD0700829ECA /* UserInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +81,15 @@
 				662B881025B514C900829ECA /* Assets.xcassets */,
 				662B881225B514C900829ECA /* LaunchScreen.storyboard */,
 				662B881525B514C900829ECA /* Info.plist */,
+				662B882025B5211400829ECA /* WeChatViewController.swift */,
+				662B882425B5215700829ECA /* MailListViewController.swift */,
+				662B882725B5216900829ECA /* ExploreViewController.swift */,
+				662B882B25B5219A00829ECA /* UserViewController.swift */,
+				662B883625B6D5A500829ECA /* WeChatCellModel.swift */,
+				662B883925B6DEBC00829ECA /* WeChatCell.swift */,
+				662B883C25B84F5E00829ECA /* GenenralCellModel.swift */,
+				662B883F25B8515700829ECA /* GeneralCell.swift */,
+				662B884425BABD0700829ECA /* UserInfoView.swift */,
 			);
 			path = WeChat_Demo;
 			sourceTree = "<group>";
@@ -137,9 +164,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				662B884025B8515700829ECA /* GeneralCell.swift in Sources */,
+				662B882C25B5219A00829ECA /* UserViewController.swift in Sources */,
+				662B883D25B84F5E00829ECA /* GenenralCellModel.swift in Sources */,
+				662B884525BABD0700829ECA /* UserInfoView.swift in Sources */,
 				662B880C25B514C800829ECA /* ViewController.swift in Sources */,
 				662B880825B514C800829ECA /* AppDelegate.swift in Sources */,
+				662B882125B5211400829ECA /* WeChatViewController.swift in Sources */,
+				662B882525B5215700829ECA /* MailListViewController.swift in Sources */,
+				662B883725B6D5A500829ECA /* WeChatCellModel.swift in Sources */,
 				662B880A25B514C800829ECA /* SceneDelegate.swift in Sources */,
+				662B883A25B6DEBC00829ECA /* WeChatCell.swift in Sources */,
+				662B882825B5216900829ECA /* ExploreViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
